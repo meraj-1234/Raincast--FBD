@@ -1,0 +1,29 @@
+{
+  "results": {
+    "climatology": {
+      "auroc": 0.46874583481283344,
+      "brier": 0.05704395373954327,
+      "decision_cost_per_1000": 594.4989106753814
+    },
+    "forecast_amount_only": {
+      "auroc": 0.6056366404816091,
+      "brier": 0.05635783985966431,
+      "decision_cost_per_1000": 595.8061002178649
+    },
+    "lagged_spread_baseline": {
+      "auroc": 0.5208493560472254,
+      "brier": 0.05659752761482805,
+      "decision_cost_per_1000": 594.4989106753814
+    },
+    "xgboost_calibrated": {
+      "auroc": 0.5902284206713796,
+      "brier": 0.05675899237394333,
+      "decision_cost_per_1000": 594.4989106753814
+    }
+  },
+  "n_test_rows": 36720,
+  "train_period": "2023-06-01 to 2023-09-30 (full monsoon)",
+  "calib_period": "2024-06-01 to 2024-06-20",
+  "test_period": "2024-06-21 to 2024-09-30 (held out)",
+  "note": "Train/test split is across TIME within available years (2023-2024 only); ECMWF Open Data's archive does not extend back to 2022, and 2025 forecast was not fetched, so this is not an independent-year holdout like the earlier hybrid run. forecast_mm is downscaled from ECMWF's India-domain-mean tp using real IMD subdivision climatology ratios (see build_real_forecast_dataset.py)."
+}

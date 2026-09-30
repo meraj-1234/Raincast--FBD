@@ -1,0 +1,5465 @@
+{
+ "mode": "replay",
+ "init_date": "2024-08-20",
+ "generated_at": "2026-09-28T03:52:05+00:00",
+ "india_mean_forecast_daily_mm": {
+  "1": 8.95,
+  "2": 8.84,
+  "3": 7.84,
+  "4": 7.82,
+  "5": 8.68,
+  "6": 7.14,
+  "7": 7.21,
+  "8": 6.56,
+  "9": 7.03,
+  "10": 7.24
+ },
+ "confidence_formula": "confidence = 1 - calibrated P(bust)",
+ "warnings": [
+  "REPLAY: stored real inputs from a past date (2024-08-20), NOT a live forecast.",
+  "20 rows have input features outside the training range (flagged per row).",
+  "Model skill is modest (held-out AUROC ~0.62, baseline 0.606): use as a risk indicator, not a precise probability. No verification exists yet for these dates."
+ ],
+ "predictions": [
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 0.9,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850 hPa relative humidity is unusually low (70%)",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 0.88,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 0.78,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 0.78,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 0.87,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 0.71,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 0.72,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 0.66,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 0.7,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Andaman & Nicobar Islands",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 0.72,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (34.6 m/s)",
+    "850 hPa relative humidity is unusually low (70%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 10.95,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (89%)",
+    "sea-level pressure changing unusually fast (+102 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 10.82,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (89%)",
+    "850-200 hPa wind shear is unusually low (19.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 9.59,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (89%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 9.57,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (89%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 10.63,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (89%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 8.73,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 8.82,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 8.02,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 8.6,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Arunachal Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 8.86,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 13.16,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 13.0,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "Day 2 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 11.53,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)",
+    "850-200 hPa wind shear is unusually low (14.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 11.5,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)",
+    "850-200 hPa wind shear is unusually low (14.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.77,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)",
+    "850-200 hPa wind shear is unusually low (14.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 10.49,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.61,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.64,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 10.34,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Assam & Meghalaya",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.64,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 12.21,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (93%)",
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 12.06,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "850-200 hPa wind shear is unusually low (13.7 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 10.7,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 10.66,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 11.85,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 9.73,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 9.84,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 8.95,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 9.59,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Nagaland Manipur Mizoram Tripura",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 9.87,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "dewpoint_depression"
+   ]
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 19.86,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (20 mm/day) is unusually high for this subdivision",
+    "forecast is +4 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 19.62,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (20 mm/day) is unusually high for this subdivision",
+    "forecast is +3 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 17.4,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (17 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 17.35,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (17 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 19.27,
+   "bust_probability": 0.0172,
+   "confidence": 0.9828,
+   "reasons": [
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "forecast is +3 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 15.83,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 16.01,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 14.55,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (15 mm/day) is unusually high for this subdivision",
+    "forecast is -2 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (85%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 15.6,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Sub Himalayan West Bengal & Sikkim",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 16.06,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.1 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 12.78,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "850-200 hPa wind shear is unusually low (6.2 m/s)",
+    "Day 1 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 12.62,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (6.2 m/s)",
+    "850 hPa relative humidity is unusually high (92%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 11.19,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (6.2 m/s)",
+    "850 hPa relative humidity is unusually high (92%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 11.16,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (6.2 m/s)",
+    "850 hPa relative humidity is unusually high (92%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.4,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (92%)",
+    "850-200 hPa wind shear is unusually low (6.2 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 10.19,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.3,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.36,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (92%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 10.03,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gangetic West Bengal",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.33,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 12.6,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (91%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (-92 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 12.44,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (91%)",
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (-92 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 11.03,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (91%)",
+    "forecast is +1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 11.0,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)",
+    "850 hPa relative humidity is unusually high (91%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.22,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (91%)",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 10.04,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.15,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.23,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 9.89,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Odisha",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.19,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (12.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 12.46,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (89%)",
+    "850-200 hPa wind shear is unusually low (6.6 m/s)",
+    "sea-level pressure changing unusually fast (-61 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 12.3,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (6.6 m/s)",
+    "850 hPa relative humidity is unusually high (89%)",
+    "forecast amount (12 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 10.91,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (6.6 m/s)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 10.88,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (6.6 m/s)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.09,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (89%)",
+    "850-200 hPa wind shear is unusually low (6.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 9.93,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (6.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.04,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.13,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (89%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 9.78,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jharkhand",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.08,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (89%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 10.68,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 10.55,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 9.36,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 9.33,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 10.36,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 8.52,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 8.61,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 7.83,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 8.39,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Bihar",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 8.64,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (11.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.19,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "sea-level pressure changing unusually fast (-92 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.08,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "Day 2 forecast (uncertainty grows with lead time)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.05,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 8.03,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "Day 4 forecast (uncertainty grows with lead time)",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.92,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "Day 5 forecast (uncertainty grows with lead time)",
+    "forecast is +1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.33,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.41,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.73,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "forecast amount (7 mm/day) is unusually low for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.22,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "Day 9 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Uttar Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.43,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.3 m/s)",
+    "Day 10 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 10.55,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.3 m/s)",
+    "850 hPa relative humidity is unusually high (94%)",
+    "forecast amount (11 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 10.42,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.3 m/s)",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 9.25,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.3 m/s)",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 9.22,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.3 m/s)",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 10.24,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.3 m/s)",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 8.41,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (5.3 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 8.5,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 7.73,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (5.3 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 8.29,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Uttar Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 8.54,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.1 K) -- very moist column",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 13.84,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.4 m/s)",
+    "forecast is +2 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (95%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 13.67,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.4 m/s)",
+    "forecast amount (14 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (95%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 12.12,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (5.4 m/s)",
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 12.09,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (5.4 m/s)",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 13.43,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (5.4 m/s)",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 11.03,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (5.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 11.15,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (5.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 10.14,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 10.87,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (11 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Uttarakhand",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 11.19,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (11 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 5.77,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (3.9 m/s)",
+    "850 hPa relative humidity is unusually high (92%)",
+    "Day 1 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 5.69,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (3.9 m/s)",
+    "850 hPa relative humidity is unusually high (92%)",
+    "Day 2 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.05,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (3.9 m/s)",
+    "forecast is +0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.0 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.04,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (3.9 m/s)",
+    "forecast is +0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.0 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.59,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (3.9 m/s)",
+    "dewpoint depression is unusually low (2.0 K) -- very moist column",
+    "forecast is +1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.6,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (3.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.65,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (3.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.22,
+   "bust_probability": 0.0074,
+   "confidence": 0.9926,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (3.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.53,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (3.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Haryana Chandigarh Delhi",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.66,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (3.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": [
+    "wind_shear_850_200"
+   ]
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 8.31,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (93%)",
+    "sea-level pressure changing unusually fast (-149 Pa/24h) -- rapid drop (deepening system)",
+    "850-200 hPa wind shear is unusually low (7.8 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 8.21,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (93%)",
+    "850-200 hPa wind shear is unusually low (7.8 m/s)",
+    "sea-level pressure changing unusually fast (-149 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 7.28,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (93%)",
+    "forecast amount (7 mm/day) is unusually high for this subdivision",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 7.26,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (7 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (7.8 m/s)",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.07,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "sea-level pressure changing unusually fast (-149 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 6.63,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 6.7,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.09,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 6.53,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (7.8 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Punjab",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 6.72,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (7.8 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.01,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (95%)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 8.89,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "Day 2 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (95%)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 7.89,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-242 Pa/24h) -- rapid drop (deepening system)",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 7.87,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-242 Pa/24h) -- rapid drop (deepening system)",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.74,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-242 Pa/24h) -- rapid drop (deepening system)",
+    "Day 5 forecast (uncertainty grows with lead time)",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.18,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 6 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.26,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 7 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.6,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "forecast amount (7 mm/day) is unusually low for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.07,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 9 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Himachal Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.28,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (0.9 K) -- very moist column",
+    "Day 10 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 3.96,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (91%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 3.91,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column",
+    "Day 2 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 3.47,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (91%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 3.46,
+   "bust_probability": 0.0088,
+   "confidence": 0.9912,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 3.84,
+   "bust_probability": 0.0088,
+   "confidence": 0.9912,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column",
+    "Day 5 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 3.15,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 3.19,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 2.9,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 3.11,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Jammu & Kashmir",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 3.2,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (3 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.6 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 6.1,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-162 Pa/24h) -- rapid drop (deepening system)",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually low (80%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 6.02,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-162 Pa/24h) -- rapid drop (deepening system)",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.34,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "Day 3 forecast (uncertainty grows with lead time)",
+    "forecast is +0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.33,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is +0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (-162 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.92,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "sea-level pressure changing unusually fast (-162 Pa/24h) -- rapid drop (deepening system)",
+    "850-200 hPa wind shear is unusually low (8.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.86,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.91,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.47,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.79,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Rajasthan",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.93,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (2.3 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.99,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)",
+    "850-200 hPa wind shear is unusually low (9.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.86,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)",
+    "850-200 hPa wind shear is unusually low (9.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.75,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +1 mm/day away from the seasonal normal",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 8.72,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +1 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (-132 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 9.69,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.0 m/s)",
+    "850 hPa relative humidity is unusually high (86%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.96,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (-132 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 8.05,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 7.32,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.84,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Rajasthan",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 8.08,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (86%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 11.35,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (87%)",
+    "sea-level pressure changing unusually fast (-161 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 11.21,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (87%)",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 9.94,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "850 hPa relative humidity is unusually high (87%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 9.91,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 11.01,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "850 hPa relative humidity is unusually high (87%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 9.05,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 9.14,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 8.31,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 8.91,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "West Madhya Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 9.18,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (9.6 m/s)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 13.24,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 13.08,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 11.6,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 11.56,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (12 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.85,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "Day 5 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 10.55,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.67,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.7,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 10.4,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "East Madhya Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.71,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.15,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "sea-level pressure changing unusually fast (-124 Pa/24h) -- rapid drop (deepening system)",
+    "850 hPa relative humidity is unusually low (82%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.03,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "sea-level pressure changing unusually fast (-124 Pa/24h) -- rapid drop (deepening system)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.01,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 7.99,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "forecast is +0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.88,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "sea-level pressure changing unusually fast (-124 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.29,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "forecast amount (7 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.37,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "sea-level pressure changing unusually fast (-124 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.7,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.18,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "forecast amount (7 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Gujarat Region",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.4,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "sea-level pressure changing unusually fast (-124 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 7.67,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually low (80%)",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 7.58,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "sea-level pressure changing unusually fast (-104 Pa/24h) -- rapid drop (deepening system)",
+    "850 hPa relative humidity is unusually low (80%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 6.72,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 6.7,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "sea-level pressure changing unusually fast (-104 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 7.44,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "sea-level pressure changing unusually fast (-104 Pa/24h) -- rapid drop (deepening system)",
+    "forecast is +1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 6.11,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 6.18,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 5.62,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 6.02,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Saurashtra & Kutch",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 6.2,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (6 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 22.19,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (22 mm/day) is unusually high for this subdivision",
+    "forecast is +4 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 21.92,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (22 mm/day) is unusually high for this subdivision",
+    "forecast is +4 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 19.44,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 19.38,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 21.53,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (22 mm/day) is unusually high for this subdivision",
+    "forecast is +3 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 17.69,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (18 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 17.88,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (18 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 16.26,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -2 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 17.43,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (17 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Konkan & Goa",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 17.95,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (18 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (93%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 7.2,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 7.11,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 2 forecast (uncertainty grows with lead time)",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 6.31,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (90%)",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 6.29,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 6.99,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "850 hPa relative humidity is unusually high (90%)",
+    "Day 5 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 5.74,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 5.8,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 5.28,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 5.66,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Madhya Maharashtra",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 5.83,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.0 m/s)",
+    "dewpoint depression is unusually low (1.2 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 5.94,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (88%)",
+    "sea-level pressure changing unusually fast (-151 Pa/24h) -- rapid drop (deepening system)",
+    "Day 1 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 5.86,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (88%)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "sea-level pressure changing unusually fast (-151 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.2,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "Day 3 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (88%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.18,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "Day 4 forecast (uncertainty grows with lead time)",
+    "forecast amount (5 mm/day) is unusually low for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.76,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (10.0 m/s)",
+    "Day 5 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.73,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.78,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.35,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.66,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Marathwada",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.8,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 10.08,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (88%)",
+    "sea-level pressure changing unusually fast (-109 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.96,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (88%)",
+    "sea-level pressure changing unusually fast (-109 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.83,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "Day 3 forecast (uncertainty grows with lead time)",
+    "dewpoint depression is unusually low (1.5 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 8.81,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.5 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 9.78,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "dewpoint depression is unusually low (1.5 K) -- very moist column",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 8.04,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 8.12,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 7.39,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)",
+    "dewpoint depression is unusually low (1.5 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.92,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Vidarbha",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 8.15,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (10.4 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 13.04,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (91%)",
+    "sea-level pressure changing unusually fast (-108 Pa/24h) -- rapid drop (deepening system)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 12.87,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (91%)",
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (-108 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 11.42,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (91%)",
+    "sea-level pressure changing unusually fast (-108 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 11.39,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (91%)",
+    "sea-level pressure changing unusually fast (-108 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 12.65,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (13 mm/day) is unusually high for this subdivision",
+    "Day 5 forecast (uncertainty grows with lead time)",
+    "850 hPa relative humidity is unusually high (91%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 10.39,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 10.5,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 9.55,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 10.24,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Chhattisgarh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 10.54,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (11 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (11.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.46,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "Day 1 forecast (uncertainty grows with lead time)",
+    "forecast is +2 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.34,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +2 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (83%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.28,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "forecast is +0 mm/day away from the seasonal normal",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 8.26,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "forecast is +0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (-51 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 9.18,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +1 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (-51 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.54,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (22.3 m/s)",
+    "850 hPa relative humidity is unusually high (83%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.62,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (22.3 m/s)",
+    "850 hPa relative humidity is unusually high (83%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.93,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (22.3 m/s)",
+    "forecast amount (7 mm/day) is unusually low for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.43,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (22.3 m/s)",
+    "dewpoint depression is unusually low (2.2 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Andhra Pradesh",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.65,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (22.3 m/s)",
+    "dewpoint depression is unusually low (2.2 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.13,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (88%)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.01,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (88%)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.0,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "850 hPa relative humidity is unusually high (88%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 7.97,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.86,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.28,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.35,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.69,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (7 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.17,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "sea-level pressure changing unusually fast (-63 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Telangana",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.38,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually low (14.5 m/s)",
+    "850 hPa relative humidity is unusually high (88%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 5.75,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "850 hPa relative humidity is unusually high (86%)",
+    "sea-level pressure changing unusually fast (+6 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 5.68,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "850 hPa relative humidity is unusually high (86%)",
+    "sea-level pressure changing unusually fast (+6 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.04,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "850 hPa relative humidity is unusually high (86%)",
+    "sea-level pressure changing unusually fast (+6 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.02,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "850 hPa relative humidity is unusually high (86%)",
+    "forecast amount (5 mm/day) is unusually low for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.58,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "850 hPa relative humidity is unusually high (86%)",
+    "sea-level pressure changing unusually fast (+6 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.58,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.63,
+   "bust_probability": 0.0103,
+   "confidence": 0.9897,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.21,
+   "bust_probability": 0.0088,
+   "confidence": 0.9912,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "forecast is -1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.51,
+   "bust_probability": 0.0172,
+   "confidence": 0.9828,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Rayalaseema",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.65,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (26.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 6.14,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "850 hPa relative humidity is unusually high (85%)",
+    "dewpoint depression is unusually low (2.1 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 6.06,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "850 hPa relative humidity is unusually high (85%)",
+    "sea-level pressure changing unusually fast (-54 Pa/24h) -- rapid drop (deepening system)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.38,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "850 hPa relative humidity is unusually high (85%)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.36,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "850 hPa relative humidity is unusually high (85%)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.96,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "850 hPa relative humidity is unusually high (85%)",
+    "Day 5 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.9,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.95,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.5,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "forecast is -1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.82,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Tamil Nadu Puducherry",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.97,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.5 m/s)",
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 19.34,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "forecast is +3 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 19.11,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast is +3 mm/day away from the seasonal normal",
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 16.95,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (17 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)",
+    "850-200 hPa wind shear is unusually high (23.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 16.9,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (17 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)",
+    "Day 4 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 18.77,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast is +3 mm/day away from the seasonal normal",
+    "forecast amount (19 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 15.42,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (15 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 15.59,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 14.17,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (14 mm/day) is unusually high for this subdivision",
+    "forecast is -2 mm/day away from the seasonal normal",
+    "850-200 hPa wind shear is unusually high (23.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 15.19,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast is -1 mm/day away from the seasonal normal",
+    "forecast amount (15 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually high (23.9 m/s)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Coastal Karnataka",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 15.64,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (16 mm/day) is unusually high for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 6.06,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "850-200 hPa wind shear is unusually low (17.9 m/s)",
+    "Day 1 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 5.99,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850 hPa relative humidity is unusually high (92%)",
+    "850-200 hPa wind shear is unusually low (17.9 m/s)",
+    "Day 2 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 5.31,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (17.9 m/s)",
+    "850 hPa relative humidity is unusually high (92%)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 5.29,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (17.9 m/s)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "850 hPa relative humidity is unusually high (92%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 5.88,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually low (17.9 m/s)",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column",
+    "Day 5 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 4.83,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 4.88,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 4.44,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (4 mm/day) is unusually low for this subdivision",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 4.76,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "North Interior Karnataka",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 4.9,
+   "bust_probability": 0.0186,
+   "confidence": 0.9814,
+   "reasons": [
+    "forecast amount (5 mm/day) is unusually low for this subdivision",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "dewpoint depression is unusually low (1.3 K) -- very moist column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 8.46,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "850 hPa relative humidity is unusually high (88%)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 8.36,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "850 hPa relative humidity is unusually high (88%)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 7.41,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "850 hPa relative humidity is unusually high (88%)",
+    "Day 3 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 7.39,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "850 hPa relative humidity is unusually high (88%)",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 8.21,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 6.75,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 6.82,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 6.2,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 6.65,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "South Interior Karnataka",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 6.84,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (27.6 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "sea-level pressure changing unusually fast (+8 Pa/24h) -- rapid rise"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 9.68,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 9.56,
+   "bust_probability": 0.0306,
+   "confidence": 0.9694,
+   "reasons": [
+    "forecast amount (10 mm/day) is unusually high for this subdivision",
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 8.48,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "850 hPa relative humidity is unusually high (90%)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 8.45,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast amount (8 mm/day) is unusually high for this subdivision",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 9.39,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast amount (9 mm/day) is unusually high for this subdivision",
+    "forecast is +1 mm/day away from the seasonal normal"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 7.71,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 7.8,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 7.09,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast is -1 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 7.6,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "forecast amount (8 mm/day) is unusually high for this subdivision"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Kerala",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 7.83,
+   "bust_probability": 0.0304,
+   "confidence": 0.9696,
+   "reasons": [
+    "850-200 hPa wind shear is unusually high (32.3 m/s)",
+    "forecast is -0 mm/day away from the seasonal normal",
+    "850 hPa relative humidity is unusually high (90%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 1,
+   "valid_date": "2024-08-21",
+   "forecast_mm": 0.9,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 2,
+   "valid_date": "2024-08-22",
+   "forecast_mm": 0.88,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 3,
+   "valid_date": "2024-08-23",
+   "forecast_mm": 0.78,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "850 hPa relative humidity is unusually high (94%)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 4,
+   "valid_date": "2024-08-24",
+   "forecast_mm": 0.78,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "dewpoint depression is unusually high (2.6 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 5,
+   "valid_date": "2024-08-25",
+   "forecast_mm": 0.87,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "dewpoint depression is unusually high (2.6 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 6,
+   "valid_date": "2024-08-26",
+   "forecast_mm": 0.71,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "Day 6 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 7,
+   "valid_date": "2024-08-27",
+   "forecast_mm": 0.72,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "dewpoint depression is unusually high (2.6 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 8,
+   "valid_date": "2024-08-28",
+   "forecast_mm": 0.66,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "dewpoint depression is unusually high (2.6 K) -- drier column"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 9,
+   "valid_date": "2024-08-29",
+   "forecast_mm": 0.7,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "Day 9 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  },
+  {
+   "subdivision": "Lakshadweep",
+   "lead_day": 10,
+   "valid_date": "2024-08-30",
+   "forecast_mm": 0.72,
+   "bust_probability": 0.0,
+   "confidence": 1.0,
+   "reasons": [
+    "forecast amount (1 mm/day) is unusually low for this subdivision",
+    "850-200 hPa wind shear is unusually high (33.9 m/s)",
+    "Day 10 forecast (uncertainty grows with lead time)"
+   ],
+   "out_of_season": false,
+   "ood_features": []
+  }
+ ]
+}

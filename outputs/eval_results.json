@@ -1,0 +1,39 @@
+{
+  "results": {
+    "climatology": {
+      "auroc": 0.6431423129444451,
+      "brier": 0.019011055726798107,
+      "decision_cost_per_1000": 194.5205479452055
+    },
+    "forecast_amount_only": {
+      "auroc": 0.7978618974097292,
+      "brier": 0.01790378923420405,
+      "decision_cost_per_1000": 163.0593607305936
+    },
+    "ensemble_spread_baseline": {
+      "auroc": 0.6947081108238329,
+      "brier": 0.01890040975774395,
+      "decision_cost_per_1000": 194.20091324200914
+    },
+    "xgboost_calibrated": {
+      "auroc": 0.9052714036539875,
+      "brier": 0.015904340893030167,
+      "decision_cost_per_1000": 133.33333333333334
+    }
+  },
+  "feature_importance": {
+    "forecast_mm": 0.24997995793819427,
+    "ens_spread": 0.0696815475821495,
+    "jumpiness": 0.04621727764606476,
+    "moisture_anom": 0.042815349996089935,
+    "shear_anom": 0.02972741611301899,
+    "lead_day": 0.21126051247119904,
+    "month_sin": 0.026650557294487953,
+    "month_cos": 0.04383605718612671,
+    "climatology_anom": 0.24367591738700867,
+    "spread_to_climo_ratio": 0.03615536913275719
+  },
+  "held_out_year": 2022,
+  "band": "lead_day 3-7",
+  "n_test_rows": 21900
+}

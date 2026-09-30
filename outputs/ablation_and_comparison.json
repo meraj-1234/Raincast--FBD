@@ -1,0 +1,89 @@
+{
+  "results": {
+    "climatology": {
+      "auroc": 0.46874583481283344,
+      "auprc": 0.05334307683675161,
+      "brier": 0.057043953739543254,
+      "log_loss": 0.6272504820333593
+    },
+    "xgb_A_forecast_only": {
+      "auroc": 0.5903061122508899,
+      "auprc": 0.07219920478494468,
+      "brier": 0.05710063502192497,
+      "log_loss": 0.2629223008107239
+    },
+    "xgb_B_plus_climatology": {
+      "auroc": 0.600208542370547,
+      "auprc": 0.07385824579098177,
+      "brier": 0.05683742091059685,
+      "log_loss": 0.248088743069021
+    },
+    "xgb_C_plus_historical_error": {
+      "auroc": 0.5635066025109521,
+      "auprc": 0.06808818914450486,
+      "brier": 0.05733868479728699,
+      "log_loss": 0.26205413600884225
+    },
+    "xgb_C2_plus_lagged_spread_proxy": {
+      "auroc": 0.5854620638217989,
+      "auprc": 0.07092970660078682,
+      "brier": 0.05716034770011902,
+      "log_loss": 0.24611703145104433
+    },
+    "model_logistic_regression": {
+      "auroc": 0.5488150087690351,
+      "auprc": 0.06631046655237208,
+      "brier": 0.05722932758983699,
+      "log_loss": 0.2471150375473177
+    },
+    "model_random_forest": {
+      "auroc": 0.6061547634037074,
+      "auprc": 0.07480789029387754,
+      "brier": 0.056231710579732065,
+      "log_loss": 0.28480862093398573
+    },
+    "model_xgboost": {
+      "auroc": 0.600208542370547,
+      "auprc": 0.07385824579098177,
+      "brier": 0.05683742091059685,
+      "log_loss": 0.248088743069021
+    }
+  },
+  "best_feature_set": "xgb_B_plus_climatology",
+  "best_feature_cols": [
+    "forecast_mm",
+    "lead_day",
+    "month_sin",
+    "month_cos",
+    "climatology_anom"
+  ],
+  "dataset_summary": {
+    "n_train": 41940,
+    "n_calib": 5220,
+    "n_test": 36720,
+    "bust_count_train": 1401,
+    "bust_count_test": 2183,
+    "bust_rate_train": 0.03340486409155937,
+    "bust_rate_test": 0.059449891067538126,
+    "bust_rate_by_lead_day_test": {
+      "1": 0.058,
+      "2": 0.0586,
+      "3": 0.0591,
+      "4": 0.0596,
+      "5": 0.0602,
+      "6": 0.0599,
+      "7": 0.0607,
+      "8": 0.0591,
+      "9": 0.0599,
+      "10": 0.0594
+    },
+    "n_subdivisions": 36,
+    "train_period": "2023-06-01 to 2023-09-30",
+    "test_period": "2024-07-21 to 2024-09-30"
+  },
+  "not_run_ablations": {
+    "D_ens_spread": "no real ECMWF ensemble (ENS) data available in this environment",
+    "E_meteorological": "no ERA5 access in this environment",
+    "F_spatial_neighbourhood": "requires per-subdivision spatial grid over the full training period; only 5 demo dates fetched at grid resolution so far"
+  }
+}

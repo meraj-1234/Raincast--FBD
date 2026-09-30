@@ -1,0 +1,52 @@
+{
+  "results": {
+    "climatology": {
+      "auroc": 0.46874583481283344,
+      "auprc": 0.05334307683675161,
+      "brier": 0.05704395373954327,
+      "log_loss": 0.6272504820333594
+    },
+    "xgb_A_forecast_only": {
+      "auroc": 0.5904336219392585,
+      "auprc": 0.0721782163881179,
+      "brier": 0.05711669102311134,
+      "log_loss": 0.25682148834687124
+    },
+    "xgb_B_plus_climatology": {
+      "auroc": 0.591647726124973,
+      "auprc": 0.07207515560900023,
+      "brier": 0.056729815900325775,
+      "log_loss": 0.24656770878000622
+    },
+    "xgb_E_plus_era5_meteorological": {
+      "auroc": 0.6173022549684181,
+      "auprc": 0.07726060538241623,
+      "brier": 0.05670074746012688,
+      "log_loss": 0.24045884606315907
+    },
+    "model_logistic_regression_bestfeat": {
+      "auroc": 0.6191287399012055,
+      "auprc": 0.07801208185424514,
+      "brier": 0.056923639786150323,
+      "log_loss": 0.24046483684529776
+    },
+    "model_random_forest_bestfeat": {
+      "auroc": 0.6142674288872692,
+      "auprc": 0.07611655369335961,
+      "brier": 0.05634030418492446,
+      "log_loss": 0.2543381090599975
+    }
+  },
+  "best_feature_set": "E_plus_era5_meteorological",
+  "best_cols": [
+    "forecast_mm",
+    "lead_day",
+    "month_sin",
+    "month_cos",
+    "climatology_anom",
+    "dewpoint_depression",
+    "wind_shear_850_200",
+    "rh850",
+    "msl_tendency"
+  ]
+}

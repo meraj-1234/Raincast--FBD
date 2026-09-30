@@ -1,0 +1,233 @@
+{
+ "init_date": "2024-08-20",
+ "india_tp_cumulative_mm": {
+  "1": 8.95113218575716,
+  "2": 17.79135875403881,
+  "3": 25.63215233385563,
+  "4": 33.45034271478653,
+  "5": 42.13525727391243,
+  "6": 49.27060008049011,
+  "7": 56.482747197151184,
+  "8": 63.040874898433685,
+  "9": 70.07012516260147,
+  "10": 77.30910181999207
+ },
+ "met": {
+  "Andaman & Nicobar Islands": {
+   "dewpoint_depression": 4.740427494049072,
+   "wind_shear_850_200": 34.560428619384766,
+   "rh850": 70.3230209350586,
+   "msl_tendency": -30.65625
+  },
+  "Arunachal Pradesh": {
+   "dewpoint_depression": 0.8561230301856995,
+   "wind_shear_850_200": 19.098508834838867,
+   "rh850": 88.87091064453125,
+   "msl_tendency": 102.4609375
+  },
+  "Assam & Meghalaya": {
+   "dewpoint_depression": 0.6279025673866272,
+   "wind_shear_850_200": 14.354043006896973,
+   "rh850": 89.75566864013672,
+   "msl_tendency": 52.765625
+  },
+  "Bihar": {
+   "dewpoint_depression": 1.349969744682312,
+   "wind_shear_850_200": 11.382745742797852,
+   "rh850": 85.6509780883789,
+   "msl_tendency": -18.3515625
+  },
+  "Chhattisgarh": {
+   "dewpoint_depression": 1.6341731548309326,
+   "wind_shear_850_200": 11.457433700561523,
+   "rh850": 91.28130340576172,
+   "msl_tendency": -108.1484375
+  },
+  "Coastal Andhra Pradesh": {
+   "dewpoint_depression": 2.1801154613494873,
+   "wind_shear_850_200": 22.31612205505371,
+   "rh850": 82.87187194824219,
+   "msl_tendency": -50.875
+  },
+  "Coastal Karnataka": {
+   "dewpoint_depression": 1.526659607887268,
+   "wind_shear_850_200": 23.882305145263672,
+   "rh850": 94.46322631835938,
+   "msl_tendency": 0.953125
+  },
+  "East Madhya Pradesh": {
+   "dewpoint_depression": 1.5847505331039429,
+   "wind_shear_850_200": 10.942644119262695,
+   "rh850": 89.56379699707031,
+   "msl_tendency": -134.46875
+  },
+  "East Rajasthan": {
+   "dewpoint_depression": 2.5746538639068604,
+   "wind_shear_850_200": 9.033354759216309,
+   "rh850": 85.96617126464844,
+   "msl_tendency": -131.9296875
+  },
+  "East Uttar Pradesh": {
+   "dewpoint_depression": 1.1174275875091553,
+   "wind_shear_850_200": 10.277670860290527,
+   "rh850": 92.34996795654297,
+   "msl_tendency": -92.0546875
+  },
+  "Gangetic West Bengal": {
+   "dewpoint_depression": 1.3421934843063354,
+   "wind_shear_850_200": 6.169220924377441,
+   "rh850": 91.88365936279297,
+   "msl_tendency": 28.359375
+  },
+  "Gujarat Region": {
+   "dewpoint_depression": 2.433072090148926,
+   "wind_shear_850_200": 11.009420394897461,
+   "rh850": 81.62651062011719,
+   "msl_tendency": -124.359375
+  },
+  "Haryana Chandigarh Delhi": {
+   "dewpoint_depression": 1.9735088348388672,
+   "wind_shear_850_200": 3.866811513900757,
+   "rh850": 92.44486999511719,
+   "msl_tendency": -136.4921875
+  },
+  "Himachal Pradesh": {
+   "dewpoint_depression": 0.9371005892753601,
+   "wind_shear_850_200": 13.279192924499512,
+   "rh850": 94.7344741821289,
+   "msl_tendency": -241.953125
+  },
+  "Jammu & Kashmir": {
+   "dewpoint_depression": 1.5552856922149658,
+   "wind_shear_850_200": 21.498144149780273,
+   "rh850": 91.17761993408203,
+   "msl_tendency": -97.75
+  },
+  "Jharkhand": {
+   "dewpoint_depression": 1.3365222215652466,
+   "wind_shear_850_200": 6.556873321533203,
+   "rh850": 89.19487762451172,
+   "msl_tendency": -61.4921875
+  },
+  "Kerala": {
+   "dewpoint_depression": 1.6989595890045166,
+   "wind_shear_850_200": 32.25395202636719,
+   "rh850": 90.36848449707031,
+   "msl_tendency": -32.0703125
+  },
+  "Konkan & Goa": {
+   "dewpoint_depression": 1.7325962781906128,
+   "wind_shear_850_200": 14.351423263549805,
+   "rh850": 92.54367065429688,
+   "msl_tendency": -84.9140625
+  },
+  "Lakshadweep": {
+   "dewpoint_depression": 2.550981044769287,
+   "wind_shear_850_200": 33.94784164428711,
+   "rh850": 94.32315063476562,
+   "msl_tendency": -83.5234375
+  },
+  "Madhya Maharashtra": {
+   "dewpoint_depression": 1.2316254377365112,
+   "wind_shear_850_200": 11.003640174865723,
+   "rh850": 89.59104919433594,
+   "msl_tendency": -140.9140625
+  },
+  "Marathwada": {
+   "dewpoint_depression": 1.3253618478775024,
+   "wind_shear_850_200": 10.04947566986084,
+   "rh850": 87.65446472167969,
+   "msl_tendency": -150.9375
+  },
+  "Nagaland Manipur Mizoram Tripura": {
+   "dewpoint_depression": 0.5762204527854919,
+   "wind_shear_850_200": 13.713932037353516,
+   "rh850": 92.67738342285156,
+   "msl_tendency": 64.2421875
+  },
+  "North Interior Karnataka": {
+   "dewpoint_depression": 1.3314876556396484,
+   "wind_shear_850_200": 17.939790725708008,
+   "rh850": 92.26314544677734,
+   "msl_tendency": -32.4921875
+  },
+  "Odisha": {
+   "dewpoint_depression": 1.8338983058929443,
+   "wind_shear_850_200": 12.636026382446289,
+   "rh850": 90.9244613647461,
+   "msl_tendency": -92.2109375
+  },
+  "Punjab": {
+   "dewpoint_depression": 1.7718238830566406,
+   "wind_shear_850_200": 7.820592880249023,
+   "rh850": 92.99382019042969,
+   "msl_tendency": -149.234375
+  },
+  "Rayalaseema": {
+   "dewpoint_depression": 2.317025899887085,
+   "wind_shear_850_200": 26.568758010864258,
+   "rh850": 86.2125015258789,
+   "msl_tendency": 5.640625
+  },
+  "Saurashtra & Kutch": {
+   "dewpoint_depression": 2.3159408569335938,
+   "wind_shear_850_200": 11.049797058105469,
+   "rh850": 79.63900756835938,
+   "msl_tendency": -103.59375
+  },
+  "South Interior Karnataka": {
+   "dewpoint_depression": 1.531435489654541,
+   "wind_shear_850_200": 27.610950469970703,
+   "rh850": 88.24805450439453,
+   "msl_tendency": 7.9296875
+  },
+  "Sub Himalayan West Bengal & Sikkim": {
+   "dewpoint_depression": 1.3882709741592407,
+   "wind_shear_850_200": 9.073284149169922,
+   "rh850": 85.43778991699219,
+   "msl_tendency": -44.6640625
+  },
+  "Tamil Nadu Puducherry": {
+   "dewpoint_depression": 2.0842771530151367,
+   "wind_shear_850_200": 32.477115631103516,
+   "rh850": 85.10497283935547,
+   "msl_tendency": -54.1171875
+  },
+  "Telangana": {
+   "dewpoint_depression": 1.6088533401489258,
+   "wind_shear_850_200": 14.495248794555664,
+   "rh850": 88.49652099609375,
+   "msl_tendency": -62.71875
+  },
+  "Uttarakhand": {
+   "dewpoint_depression": 0.8986691236495972,
+   "wind_shear_850_200": 5.431028366088867,
+   "rh850": 95.13032531738281,
+   "msl_tendency": -155.0390625
+  },
+  "Vidarbha": {
+   "dewpoint_depression": 1.502022624015808,
+   "wind_shear_850_200": 10.435729026794434,
+   "rh850": 88.03377532958984,
+   "msl_tendency": -109.03125
+  },
+  "West Madhya Pradesh": {
+   "dewpoint_depression": 2.1893744468688965,
+   "wind_shear_850_200": 9.626179695129395,
+   "rh850": 86.52986145019531,
+   "msl_tendency": -160.6171875
+  },
+  "West Rajasthan": {
+   "dewpoint_depression": 2.2600033283233643,
+   "wind_shear_850_200": 8.633974075317383,
+   "rh850": 79.7356185913086,
+   "msl_tendency": -162.4765625
+  },
+  "West Uttar Pradesh": {
+   "dewpoint_depression": 1.1155011653900146,
+   "wind_shear_850_200": 5.335484981536865,
+   "rh850": 93.84089660644531,
+   "msl_tendency": -135.8671875
+  }
+ }
+}

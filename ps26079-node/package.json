@@ -1,0 +1,14 @@
+{
+  "name": "ps26079-forecast-bust-detection",
+  "version": "1.0.0",
+  "description": "SIH 2026 PS26079 - Forecast bust detection dashboard (React + Tailwind frontend, Node/Express backend)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
